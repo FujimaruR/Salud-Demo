@@ -5,6 +5,15 @@ Instrucciones para trabajar en FujimaruR/Salud-Demo. Alcance: todo este reposito
 ## Contexto del proyecto
 Aplicación en salud-demo/ con React, TypeScript, Vite, formularios React Hook Form/Zod y dependencias Express/Prisma. Desde salud-demo/ ejecuta npm run lint (Oxlint) y npm run build (incluye TypeScript). prisma/schema.prisma declara SQLite pero no contiene modelos; esto no prueba que exista analítica operativa. Inspecciona prisma.config.ts y código del servidor antes de implementar. Hay un dev.db versionado: no leas ni publiques datos reales y no lo uses como BD de producción; prepara después una limpieza revisable y exclusiones. Nunca registres síntomas, consultas médicas, datos de pacientes o contenido de formularios en analítica. Conserva instrucciones locales pertinentes de herramientas existentes.
 
+## Propósito de demo para clientes
+- Este proyecto es una demo que posibles clientes pueden explorar para valorar un desarrollo de Yair. No representa por defecto una empresa real ni un servicio operativo.
+- Quedan por definir el diseño del frontend, identidad visual, páginas, contenido, interacciones y alcance funcional. El código existente es un punto de partida, no una especificación final aprobada.
+- Antes de implementar una nueva etapa, concreta una propuesta de interfaz y flujo apropiada al sector; distingue decisiones confirmadas, propuestas y pendientes. Reutiliza el stack existente cuando corresponda.
+- Identifica el sitio como demostración. Permite datos ficticios claramente etiquetados para mostrar la interfaz; nunca los presentes como clientes, testimonios, acreditaciones o resultados reales.
+- Distingue formularios simulados de solicitudes reales. Una simulación debe indicarlo y no generar reservas, cobros ni comunicaciones reales. Registra sus eventos separadamente de conversiones comerciales reales.
+- El destino comercial general es Clients_Yair. Añade un enlace de interés o contacto únicamente cuando exista una URL confirmada; no inventes direcciones de despliegue.
+- Conserva los requisitos de español/inglés, analítica SQLite persistente, accesibilidad y verificación. Documenta lo implementado y lo que aún falta definir.
+
 ## Forma de trabajar
 - Comunica y explica los cambios en español, con ejemplos útiles para aprender.
 - Inspecciona el código, los manifiestos, lockfiles, configuración de hosting y otros AGENTS.md antes de editar. Las instrucciones más específicas del directorio aplican a sus archivos.

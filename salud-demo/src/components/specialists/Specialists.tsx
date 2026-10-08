@@ -1,6 +1,7 @@
+import { useLocale as useSiteLocale, t as tr, text as localizeText } from '../../site/locale';
 // src/components/specialists/SpecialistsSection.tsx
 import { motion } from "motion/react";
-import { Instagram, Linkedin } from "lucide-react";
+import { Camera as Instagram, BriefcaseBusiness as Linkedin } from "lucide-react";
 
 const specialists = [
   {
@@ -24,6 +25,7 @@ const specialists = [
 ];
 
 export function SpecialistsSection() {
+  useSiteLocale();
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,12 +36,9 @@ export function SpecialistsSection() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Nuestros <span className="text-blue-600">Especialistas</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900"> {tr("text.6c8a1a683c")} <span className="text-blue-600">{tr("text.fb9e658078")}</span>
           </h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Profesionales altamente capacitados para brindarte la mejor atención.
-          </p>
+          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto"> {tr("text.476e98319f")} </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -55,14 +54,13 @@ export function SpecialistsSection() {
             >
               <img
                 src={spec.image}
-                alt={spec.name}
+                alt={localizeText(spec.name)}
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-blue-100"
               />
-              <h3 className="text-xl font-semibold">{spec.name}</h3>
-              <p className="text-blue-600 font-medium">{spec.specialty}</p>
+              <h3 className="text-xl font-semibold">{localizeText(spec.name)}</h3>
+              <p className="text-blue-600 font-medium">{localizeText(spec.specialty)}</p>
               <p className="text-gray-500 text-sm mt-1">
-                {spec.experience} años de experiencia
-              </p>
+                {localizeText(spec.experience)} {tr("text.b4c460516b")} </p>
               <div className="flex justify-center gap-4 mt-4">
                 <a href="#" className="text-gray-400 hover:text-blue-600 transition">
                   <Instagram className="w-5 h-5" />

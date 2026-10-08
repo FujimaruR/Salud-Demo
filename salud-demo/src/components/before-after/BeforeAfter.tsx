@@ -1,6 +1,7 @@
+import { useLocale as useSiteLocale, t as tr, text as localizeText } from '../../site/locale';
 // src/components/before-after/BeforeAfterSection.tsx
 import { motion } from "motion/react";
-import { useState } from "react";
+
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -16,8 +17,9 @@ const beforeAfterData = [
 ];
 
 export function BeforeAfterSection() {
+  useSiteLocale();
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
-  const [selectedIndex, setSelectedIndex] = useState(0);
+
 
   const scrollPrev = () => emblaApi && emblaApi.scrollPrev();
   const scrollNext = () => emblaApi && emblaApi.scrollNext();
@@ -32,12 +34,9 @@ export function BeforeAfterSection() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Antes y <span className="text-blue-600">Después</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900"> {tr("text.f32d075c1f")} <span className="text-blue-600">{tr("text.26c707591a")}</span>
           </h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Resultados reales de nuestros pacientes. Transformamos sonrisas.
-          </p>
+          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto"> {tr("text.392ea09957")} </p>
         </motion.div>
 
         <div className="relative">
@@ -49,27 +48,23 @@ export function BeforeAfterSection() {
                     <div className="relative h-64 md:h-80">
                       <img
                         src={item.before}
-                        alt="Antes"
+                        alt={tr("text.1177e4ed7f")}
                         className="w-full h-full object-cover"
                       />
-                      <span className="absolute bottom-2 left-2 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full">
-                        Antes
-                      </span>
+                      <span className="absolute bottom-2 left-2 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full"> {tr("text.1177e4ed7f")} </span>
                     </div>
                     <div className="relative h-64 md:h-80">
                       <img
                         src={item.after}
-                        alt="Después"
+                        alt={tr("text.26c707591a")}
                         className="w-full h-full object-cover"
                       />
-                      <span className="absolute bottom-2 left-2 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">
-                        Después
-                      </span>
+                      <span className="absolute bottom-2 left-2 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full"> {tr("text.26c707591a")} </span>
                     </div>
                   </div>
                   <div className="mt-4 text-center">
-                    <h3 className="text-xl font-semibold">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
+                    <h3 className="text-xl font-semibold">{localizeText(item.title)}</h3>
+                    <p className="text-gray-600">{localizeText(item.description)}</p>
                   </div>
                 </div>
               ))}

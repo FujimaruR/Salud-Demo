@@ -1,6 +1,8 @@
+import { useLocale as useSiteLocale, t as tr } from '../../site/locale';
 import { ArrowRight, CalendarDays } from "lucide-react";
 
 export default function HeroContent() {
+  useSiteLocale();
 
     return (
 
@@ -21,11 +23,7 @@ export default function HeroContent() {
                     text-white
                     backdrop-blur-xl
                 "
-            >
-
-                CLÍNICA DENTAL PREMIUM
-
-            </span>
+            > {tr("text.f6c9703334")} </span>
 
             <h1
                 className="
@@ -38,15 +36,7 @@ export default function HeroContent() {
                     md:text-6xl
                     xl:text-7xl
                 "
-            >
-
-                Tu mejor sonrisa
-
-                <br/>
-
-                comienza aquí.
-
-            </h1>
+            > {tr("text.500e4be500")} <br/> {tr("text.bdd4c87a48")} </h1>
 
             <p
                 className="
@@ -56,13 +46,7 @@ export default function HeroContent() {
                     leading-8
                     text-gray-200
                 "
-            >
-
-                Comprometidos a mejorar la salud bucal de nuestros pacientes
-                mediante tratamientos modernos, seguros y totalmente
-                personalizados.
-
-            </p>
+            > {tr("text.db992a2c90")} </p>
 
             <div className="mt-12 flex flex-wrap gap-5">
 
@@ -84,11 +68,7 @@ export default function HeroContent() {
                     "
                 >
 
-                    <CalendarDays size={20}/>
-
-                    Agenda tu cita
-
-                </button>
+                    <CalendarDays size={20}/> {tr("text.df14356d6d")} </button>
 
                 <button
                     className="
@@ -107,11 +87,7 @@ export default function HeroContent() {
                         duration-300
                         hover:bg-white/20
                     "
-                >
-
-                    Ver tratamientos
-
-                    <ArrowRight size={18}/>
+                > {tr("text.98dc159f21")} <ArrowRight size={18}/>
 
                 </button>
 
@@ -123,49 +99,25 @@ export default function HeroContent() {
 
                 <div>
 
-                    <h2 className="text-4xl font-bold text-white">
+                    <h2 className="text-4xl font-bold text-white"> {tr("text.5f273ca8a8")} </h2>
 
-                        +2,300
-
-                    </h2>
-
-                    <p className="text-gray-300">
-
-                        Pacientes felices
-
-                    </p>
+                    <p className="text-gray-300"> {tr("text.727629b4ff")} </p>
 
                 </div>
 
                 <div>
 
-                    <h2 className="text-4xl font-bold text-white">
+                    <h2 className="text-4xl font-bold text-white"> {tr("text.e52c854d56")} </h2>
 
-                        15+
-
-                    </h2>
-
-                    <p className="text-gray-300">
-
-                        Años de experiencia
-
-                    </p>
+                    <p className="text-gray-300"> {tr("text.c82cbcde3f")} </p>
 
                 </div>
 
                 <div>
 
-                    <h2 className="text-4xl font-bold text-white">
+                    <h2 className="text-4xl font-bold text-white"> {tr("text.93f9259322")} </h2>
 
-                        4.9★
-
-                    </h2>
-
-                    <p className="text-gray-300">
-
-                        Calificación promedio
-
-                    </p>
+                    <p className="text-gray-300"> {tr("text.924347fea4")} </p>
 
                 </div>
 

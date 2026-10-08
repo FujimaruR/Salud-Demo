@@ -1,3 +1,4 @@
+import { useLocale as useSiteLocale, t as tr, text as localizeText } from '../../site/locale';
 import { X } from "lucide-react";
 
 type Link = {
@@ -16,6 +17,7 @@ export default function MobileMenu({
   close,
   links
 }: Props) {
+  useSiteLocale();
 
   return (
 
@@ -56,7 +58,7 @@ export default function MobileMenu({
 
         <div className="mb-10 flex justify-end">
 
-          <button onClick={close}>
+          <button aria-label={tr("text.9f4dfc32f8")} onClick={close}>
 
             <X size={30} />
 
@@ -75,7 +77,7 @@ export default function MobileMenu({
               className="text-lg font-semibold"
             >
 
-              {link.title}
+              {localizeText(link.title)}
 
             </a>
 
@@ -92,11 +94,7 @@ export default function MobileMenu({
             font-semibold
             text-white
           "
-        >
-
-          Agendar cita
-
-        </button>
+        > {tr("text.df14356d6d")} </button>
 
       </aside>
 

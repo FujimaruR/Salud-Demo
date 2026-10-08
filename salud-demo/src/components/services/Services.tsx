@@ -1,3 +1,4 @@
+import { useLocale as useSiteLocale, t as tr, text as localizeText } from '../../site/locale';
 // src/components/services/ServicesSection.tsx
 import { motion } from "motion/react";
 import { Heart, Sparkles, Scissors, Smile } from "lucide-react";
@@ -26,6 +27,7 @@ const services = [
 ];
 
 export function ServicesSection() {
+  useSiteLocale();
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -40,7 +42,7 @@ export function ServicesSection() {
   };
 
   return (
-    <section className="py-20 bg-white">
+    <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -49,12 +51,9 @@ export function ServicesSection() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Servicios más <span className="text-blue-600">solicitados</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900"> {tr('demo.services')}
           </h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Ofrecemos tratamientos de vanguardia para cuidar tu salud dental.
-          </p>
+          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto"> {tr("text.b0c142ba8d")} </p>
         </motion.div>
 
         <motion.div
@@ -75,12 +74,10 @@ export function ServicesSection() {
                 <service.icon className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800">
-                {service.title}
+                {localizeText(service.title)}
               </h3>
-              <p className="mt-2 text-gray-600">{service.desc}</p>
-              <button className="mt-4 text-blue-600 font-medium hover:text-blue-800 transition">
-                Saber más →
-              </button>
+              <p className="mt-2 text-gray-600">{localizeText(service.desc)}</p>
+              <button onClick={() => document.getElementById('contact')?.scrollIntoView()} className="mt-4 text-blue-600 font-medium hover:text-blue-800 transition"> {tr("text.b5b73ae604")} </button>
             </motion.div>
           ))}
         </motion.div>

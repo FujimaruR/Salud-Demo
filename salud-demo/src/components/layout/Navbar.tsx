@@ -1,9 +1,9 @@
+import { useLocale as useSiteLocale, t as tr, text as localizeText } from '../../site/locale';
 import { useEffect, useState } from "react";
 import {
   CalendarDays,
   HeartHandshake,
-  Menu,
-  X
+  Menu
 } from "lucide-react";
 
 import MobileMenu from "./MobileMenu.tsx";
@@ -11,13 +11,11 @@ import MobileMenu from "./MobileMenu.tsx";
 const links = [
   { title: "Inicio", href: "#hero" },
   { title: "Servicios", href: "#services" },
-  { title: "Especialistas", href: "#specialists" },
-  { title: "Galería", href: "#gallery" },
-  { title: "Opiniones", href: "#reviews" },
   { title: "Contacto", href: "#contact" },
 ];
 
 export default function Navbar() {
+  useSiteLocale();
 
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -87,21 +85,13 @@ export default function Navbar() {
                 className={`text-xl font-bold transition-colors
                 ${scrolled ? "text-gray-900" : "text-white"}
                 `}
-              >
-
-                SmilePerfect
-
-              </h2>
+              > {tr("text.f529a4b3b5")} </h2>
 
               <p
                 className={`text-xs transition-colors
                 ${scrolled ? "text-gray-500" : "text-gray-300"}
                 `}
-              >
-
-                Dental Clinic
-
-              </p>
+              > {tr("text.1509ec3c14")} </p>
 
             </div>
 
@@ -137,7 +127,7 @@ export default function Navbar() {
                 `}
               >
 
-                {link.title}
+                {localizeText(link.title)}
 
               </a>
 
@@ -166,16 +156,12 @@ export default function Navbar() {
             "
           >
 
-            <CalendarDays size={18} />
-
-            Agendar cita
-
-          </button>
+            <CalendarDays size={18} /> {tr("text.df14356d6d")} </button>
 
           {/* Mobile */}
 
           <button
-            onClick={() => setMobileMenu(true)}
+            aria-label={tr("text.256a5c2ab3")} onClick={() => setMobileMenu(true)}
             className={`
                 xl:hidden
                 transition

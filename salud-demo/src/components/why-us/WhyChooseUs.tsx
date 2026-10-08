@@ -1,3 +1,4 @@
+import { useLocale as useSiteLocale, t as tr, text as localizeText } from '../../site/locale';
 // src/components/why-us/WhyUsSection.tsx
 import { motion } from "motion/react";
 import { Award, Clock, Shield, Users } from "lucide-react";
@@ -26,6 +27,7 @@ const reasons = [
 ];
 
 export function WhyUsSection() {
+  useSiteLocale();
   return (
     <section className="py-20 bg-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -36,8 +38,7 @@ export function WhyUsSection() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            ¿Por qué elegir <span className="text-blue-600">SmilePerfect</span>?
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900"> {tr("text.202b437555")} <span className="text-blue-600">{tr("text.f529a4b3b5")}</span>?
           </h2>
         </motion.div>
 
@@ -55,9 +56,9 @@ export function WhyUsSection() {
                 <reason.icon className="w-10 h-10" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800">
-                {reason.title}
+                {localizeText(reason.title)}
               </h3>
-              <p className="mt-2 text-gray-600">{reason.desc}</p>
+              <p className="mt-2 text-gray-600">{localizeText(reason.desc)}</p>
             </motion.div>
           ))}
         </div>

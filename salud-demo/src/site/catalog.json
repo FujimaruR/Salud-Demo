@@ -1,0 +1,690 @@
+{
+  "language.label": {
+    "es": "Idioma",
+    "en": "Language"
+  },
+  "site.title": {
+    "es": "SmilePerfect · Demostración",
+    "en": "SmilePerfect · Demonstration"
+  },
+  "site.description": {
+    "es": "Demostración de sitio de salud. Sin atención médica ni reservas reales.",
+    "en": "Demonstration of a health website. No medical care or real bookings."
+  },
+  "text.d8a53e1f6d": {
+    "es": "Contacto",
+    "en": "Contact"
+  },
+  "text.bc965226b2": {
+    "es": "Blanqueamiento dental",
+    "en": "Teeth whitening"
+  },
+  "text.a7cd364de0": {
+    "es": "Resultado en 2 sesiones",
+    "en": "Result in 2 sessions"
+  },
+  "text.f32d075c1f": {
+    "es": "Antes y",
+    "en": "Before and"
+  },
+  "text.26c707591a": {
+    "es": "Después",
+    "en": "After"
+  },
+  "text.385a2a135c": {
+    "es": "Resultados reales de nuestros pacientes. Transformamos sonrisas.",
+    "en": "Real patient results. Transforming smiles."
+  },
+  "text.1177e4ed7f": {
+    "es": "Antes",
+    "en": "Before"
+  },
+  "text.884a9e01eb": {
+    "es": "CLÍNICA DENTAL PREMIUM",
+    "en": "PREMIUM DENTAL CLINIC"
+  },
+  "text.500e4be500": {
+    "es": "Tu mejor sonrisa",
+    "en": "Your best smile"
+  },
+  "text.bdd4c87a48": {
+    "es": "comienza aquí.",
+    "en": "starts here."
+  },
+  "text.db992a2c90": {
+    "es": "Explora una propuesta de sitio para una clínica dental. El contenido es ilustrativo y no ofrece atención médica ni reservas reales.",
+    "en": "Explore a proposed dental clinic website. The content is illustrative and offers no medical care or real bookings."
+  },
+  "text.6ce783ec92": {
+    "es": "Agenda tu cita",
+    "en": "Book your appointment"
+  },
+  "text.823b6301ed": {
+    "es": "Ver tratamientos",
+    "en": "View treatments"
+  },
+  "text.79eace0982": {
+    "es": "Pacientes felices",
+    "en": "Happy patients"
+  },
+  "text.86a4534bbd": {
+    "es": "Años de experiencia",
+    "en": "Years of experience"
+  },
+  "text.eb317145c8": {
+    "es": "Calificación promedio",
+    "en": "Average rating"
+  },
+  "text.04d36abf92": {
+    "es": "#FACC15",
+    "en": "#FACC15"
+  },
+  "text.9a2a52da8d": {
+    "es": "Paciente verificado",
+    "en": "Verified patient"
+  },
+  "text.447b6c4869": {
+    "es": "Carlos M.",
+    "en": "Carlos M."
+  },
+  "text.26677458b7": {
+    "es": "Excelente atención. Todo el personal fue muy amable y profesional.",
+    "en": "Excellent service. All the staff were friendly and professional."
+  },
+  "text.63a289f18f": {
+    "es": "Andrea G.",
+    "en": "Andrea G."
+  },
+  "text.5d414dda0a": {
+    "es": "Mi tratamiento fue mucho más cómodo de lo que esperaba.",
+    "en": "My treatment was much more comfortable than I expected."
+  },
+  "text.a452740cd5": {
+    "es": "Luis R.",
+    "en": "Luis R."
+  },
+  "text.f2ceee14ff": {
+    "es": "Las instalaciones son impecables y el servicio excelente.",
+    "en": "Impeccable facilities and excellent service."
+  },
+  "text.81c7c2472f": {
+    "es": "Mariana T.",
+    "en": "Mariana T."
+  },
+  "text.546aa67711": {
+    "es": "Mi sonrisa cambió completamente. Muy recomendados.",
+    "en": "My smile changed completely. Highly recommended."
+  },
+  "text.12ea6cde76": {
+    "es": "Daniel H.",
+    "en": "Daniel H."
+  },
+  "text.b90d8214bf": {
+    "es": "La mejor clínica dental que he visitado.",
+    "en": "The best dental clinic I have visited."
+  },
+  "text.b5312afcb3": {
+    "es": "Fernanda C.",
+    "en": "Fernanda C."
+  },
+  "text.d05645d9ff": {
+    "es": "Muy puntuales y con tecnología de primer nivel.",
+    "en": "Punctual service and first-class technology."
+  },
+  "text.6e5c212200": {
+    "es": "Agendar cita",
+    "en": "Book appointment"
+  },
+  "text.4f70d8c37e": {
+    "es": "Inicio",
+    "en": "Home"
+  },
+  "text.51d3e479f4": {
+    "es": "Servicios",
+    "en": "Services"
+  },
+  "text.fb9e658078": {
+    "es": "Especialistas",
+    "en": "Specialists"
+  },
+  "text.b267d32c90": {
+    "es": "Galería",
+    "en": "Gallery"
+  },
+  "text.d55eecc190": {
+    "es": "Opiniones",
+    "en": "Reviews"
+  },
+  "text.f529a4b3b5": {
+    "es": "SmilePerfect",
+    "en": "SmilePerfect"
+  },
+  "text.a8136b3fe9": {
+    "es": "Dental Clinic",
+    "en": "Dental clinic"
+  },
+  "text.60217c1723": {
+    "es": "Implantes dentales",
+    "en": "Dental implants"
+  },
+  "text.86abd56543": {
+    "es": "Categoría ilustrativa de implantes para explorar la interfaz.",
+    "en": "Illustrative implant category for exploring the interface."
+  },
+  "text.42e2d1b0e5": {
+    "es": "Blanqueamiento",
+    "en": "Whitening"
+  },
+  "text.9314e673dd": {
+    "es": "Categoría ilustrativa de blanqueamiento para explorar la interfaz.",
+    "en": "Illustrative whitening category for exploring the interface."
+  },
+  "text.ee6acbc34b": {
+    "es": "Ortodoncia",
+    "en": "Orthodontics"
+  },
+  "text.fc28d04027": {
+    "es": "Categoría ilustrativa de ortodoncia para explorar la interfaz.",
+    "en": "Illustrative orthodontics category for exploring the interface."
+  },
+  "text.d2c132de67": {
+    "es": "Estética dental",
+    "en": "Cosmetic dentistry"
+  },
+  "text.c3babb80e9": {
+    "es": "Categoría ilustrativa de estética dental para explorar la interfaz.",
+    "en": "Illustrative cosmetic dentistry category for exploring the interface."
+  },
+  "text.e21ed871f8": {
+    "es": "Servicios más",
+    "en": "Most requested"
+  },
+  "text.f1e6e21f9c": {
+    "es": "solicitados",
+    "en": "services"
+  },
+  "text.ae830a0caf": {
+    "es": "Ofrecemos tratamientos de vanguardia para cuidar tu salud dental.",
+    "en": "Advanced treatments for your dental health."
+  },
+  "text.b5b73ae604": {
+    "es": "Saber más →",
+    "en": "Learn more →"
+  },
+  "text.ebabe260bf": {
+    "es": "Dra. María González",
+    "en": "Dra. María González"
+  },
+  "text.3aba62c092": {
+    "es": "Ortodoncia y Estética",
+    "en": "Orthodontics and cosmetic dentistry"
+  },
+  "text.d54951b2c1": {
+    "es": "Dr. Carlos Ruiz",
+    "en": "Dr. Carlos Ruiz"
+  },
+  "text.93147c7b32": {
+    "es": "Implantología",
+    "en": "Implant dentistry"
+  },
+  "text.c450dcdcf7": {
+    "es": "Dra. Laura Méndez",
+    "en": "Dra. Laura Méndez"
+  },
+  "text.68fa8a023e": {
+    "es": "Endodoncia",
+    "en": "Endodontics"
+  },
+  "text.6c8a1a683c": {
+    "es": "Nuestros",
+    "en": "Our"
+  },
+  "text.6751e2ee3c": {
+    "es": "Profesionales altamente capacitados para brindarte la mejor atención.",
+    "en": "Highly trained professionals providing care."
+  },
+  "text.b4c460516b": {
+    "es": "años de experiencia",
+    "en": "years of experience"
+  },
+  "text.8c5f4360dc": {
+    "es": "Expertos certificados",
+    "en": "Certified specialists"
+  },
+  "text.b6919e2996": {
+    "es": "Más de 10 años de experiencia en odontología estética.",
+    "en": "Over 10 years of experience in cosmetic dentistry."
+  },
+  "text.03f9d26c82": {
+    "es": "Tecnología avanzada",
+    "en": "Advanced technology"
+  },
+  "text.efd0481cae": {
+    "es": "Equipos de última generación para diagnósticos precisos.",
+    "en": "Modern equipment for precise diagnoses."
+  },
+  "text.4b0402a4c8": {
+    "es": "Seguridad y confianza",
+    "en": "Safety and trust"
+  },
+  "text.416dd3275b": {
+    "es": "Protocolos de higiene y esterilización rigurosos.",
+    "en": "Strict hygiene and sterilization protocols."
+  },
+  "text.0bc69e8be6": {
+    "es": "Atención personalizada",
+    "en": "Personalized care"
+  },
+  "text.f7fd6b8882": {
+    "es": "Tratamientos adaptados a tus necesidades y presupuesto.",
+    "en": "Treatments adapted to your needs and budget."
+  },
+  "text.202b437555": {
+    "es": "¿Por qué elegir",
+    "en": "Why choose"
+  },
+  "text.0c39e66b4e": {
+    "es": "Error cargando datos",
+    "en": "Could not load data"
+  },
+  "text.0538bd1331": {
+    "es": "No se pudo crear la orden",
+    "en": "Could not create the order"
+  },
+  "text.d5d91a501e": {
+    "es": "Error cargando dashboard",
+    "en": "Could not load the dashboard"
+  },
+  "text.e3a07dc540": {
+    "es": "Error cargando tablero",
+    "en": "Could not load the board"
+  },
+  "text.f2c33ecade": {
+    "es": "Error cargando órdenes",
+    "en": "Could not load orders"
+  },
+  "text.0fbc78e504": {
+    "es": "No se pudo actualizar el estatus",
+    "en": "Could not update the status"
+  },
+  "text.96bb80ab80": {
+    "es": "IN_PREPARATION",
+    "en": "Preparing"
+  },
+  "text.0a7b38b716": {
+    "es": "PENDING",
+    "en": "Pending"
+  },
+  "text.fc554d02b8": {
+    "es": "READY",
+    "en": "Ready"
+  },
+  "text.a29e4a4760": {
+    "es": "SERVED",
+    "en": "Served"
+  },
+  "text.5587b0afcc": {
+    "es": "CANCELLED",
+    "en": "Canceled"
+  },
+  "text.9af0a9c042": {
+    "es": "DINE_IN",
+    "en": "Dine-in"
+  },
+  "text.d8b4c27638": {
+    "es": "TAKEOUT",
+    "en": "Takeout"
+  },
+  "text.34d4e4c718": {
+    "es": "DELIVERY",
+    "en": "Delivery"
+  },
+  "text.4a9768fab0": {
+    "es": "FREE",
+    "en": "Free"
+  },
+  "text.dc884b0a74": {
+    "es": "OCCUPIED",
+    "en": "Occupied"
+  },
+  "text.044eabc219": {
+    "es": "RESERVED",
+    "en": "Reserved"
+  },
+  "text.b521caa6e1": {
+    "es": "ADMIN",
+    "en": "Administrator"
+  },
+  "text.0e6a0fe992": {
+    "es": "KITCHEN",
+    "en": "Kitchen"
+  },
+  "text.baa596bec4": {
+    "es": "WAITER",
+    "en": "Waiter"
+  },
+  "text.17efca6aa2": {
+    "es": "Hola! Quiero información o hacer un pedido 🍗🔥",
+    "en": "Hi! I would like information or to place an order 🍗🔥"
+  },
+  "text.a27856714b": {
+    "es": "Comandos disponibles:",
+    "en": "Available commands:"
+  },
+  "text.a31b6eb700": {
+    "es": "  curriculum  -> muestra el CV aquí",
+    "en": "  curriculum  -> display the résumé here"
+  },
+  "text.0b33c97909": {
+    "es": "  open        -> abre el CV en una pestaña nueva",
+    "en": "  open        -> open the résumé in a new tab"
+  },
+  "text.57ceb009c6": {
+    "es": "  download    -> descarga el CV",
+    "en": "  download    -> download the résumé"
+  },
+  "text.bbbb21f6a5": {
+    "es": "  clear       -> limpia la terminal",
+    "en": "  clear       -> clear the terminal"
+  },
+  "text.d3c02cdfe8": {
+    "es": "  help        -> muestra esta ayuda",
+    "en": "  help        -> display this help"
+  },
+  "text.90708b1574": {
+    "es": "Abriendo CV...",
+    "en": "Opening résumé..."
+  },
+  "text.9437fd14d6": {
+    "es": "Descargando CV...",
+    "en": "Downloading résumé..."
+  },
+  "text.c22c9f7e8b": {
+    "es": "hace unos segundos",
+    "en": "a few seconds ago"
+  },
+  "text.62749e5a53": {
+    "es": "hace 1 min",
+    "en": "1 minute ago"
+  },
+  "text.392ea09957": {
+    "es": "Ejemplo ficticio de galería. No representa resultados de pacientes.",
+    "en": "Fictional gallery example. It does not represent patient results."
+  },
+  "text.59aeff1440": {
+    "es": "Una experiencia para explorar",
+    "en": "An experience to explore"
+  },
+  "text.3d9ca227d2": {
+    "es": "Diseño de demostración para posibles clientes de Yair.",
+    "en": "Demonstration design for Yair’s prospective clients."
+  },
+  "text.7585b11221": {
+    "es": "Navegación accesible",
+    "en": "Accessible navigation"
+  },
+  "text.c6b3c5d328": {
+    "es": "Servicios ilustrativos",
+    "en": "Illustrative services"
+  },
+  "text.7a6c92a921": {
+    "es": "Formulario simulado sin datos médicos",
+    "en": "Simulated form without medical data"
+  },
+  "text.f6c9703334": {
+    "es": "DEMOSTRACIÓN · CLÍNICA DENTAL",
+    "en": "DEMONSTRATION · DENTAL CLINIC"
+  },
+  "text.df14356d6d": {
+    "es": "Simular cita",
+    "en": "Simulate appointment"
+  },
+  "text.98dc159f21": {
+    "es": "Explorar servicios",
+    "en": "Explore services"
+  },
+  "text.5f273ca8a8": {
+    "es": "ES / EN",
+    "en": "ES / EN"
+  },
+  "text.727629b4ff": {
+    "es": "Interfaz bilingüe",
+    "en": "Bilingual interface"
+  },
+  "text.e52c854d56": {
+    "es": "Demo",
+    "en": "Demo"
+  },
+  "text.c82cbcde3f": {
+    "es": "Contenido ilustrativo",
+    "en": "Illustrative content"
+  },
+  "text.93f9259322": {
+    "es": "Sin reservas",
+    "en": "No bookings"
+  },
+  "text.924347fea4": {
+    "es": "Simulación local",
+    "en": "Local simulation"
+  },
+  "text.9f4dfc32f8": {
+    "es": "Cerrar menú",
+    "en": "Close menu"
+  },
+  "text.1509ec3c14": {
+    "es": "Demo de clínica dental",
+    "en": "Dental clinic demo"
+  },
+  "text.256a5c2ab3": {
+    "es": "Abrir menú",
+    "en": "Open menu"
+  },
+  "text.b0c142ba8d": {
+    "es": "Categorías ilustrativas para mostrar la interfaz. No constituyen una oferta médica.",
+    "en": "Illustrative categories to demonstrate the interface. They do not constitute a medical offer."
+  },
+  "text.476e98319f": {
+    "es": "Perfiles ficticios utilizados únicamente para demostrar el diseño.",
+    "en": "Fictional profiles used only to demonstrate the design."
+  },
+  "text.85cc4ce846": {
+    "es": "Simular una cita",
+    "en": "Simulate an appointment"
+  },
+  "text.8dc39ac1f6": {
+    "es": "Demostración sin reservas ni comunicaciones reales. No introduzcas datos personales ni información médica.",
+    "en": "Demonstration without real bookings or communications. Do not enter personal or medical information."
+  },
+  "text.b1bc62da22": {
+    "es": "Categoría de ejemplo",
+    "en": "Example category"
+  },
+  "text.e49e028311": {
+    "es": "Selecciona una categoría",
+    "en": "Select a category"
+  },
+  "text.6750da7559": {
+    "es": "Consulta ilustrativa",
+    "en": "Illustrative consultation"
+  },
+  "text.34e62ff810": {
+    "es": "Explorar el diseño",
+    "en": "Explore the design"
+  },
+  "text.2320f5bf23": {
+    "es": "Horario de ejemplo",
+    "en": "Example time slot"
+  },
+  "text.4bef5433cf": {
+    "es": "Selecciona un horario",
+    "en": "Select a time slot"
+  },
+  "text.eb993f86c0": {
+    "es": "Mañana (ficticio)",
+    "en": "Morning (fictional)"
+  },
+  "text.4f81c724c7": {
+    "es": "Tarde (ficticio)",
+    "en": "Afternoon (fictional)"
+  },
+  "text.28994c5e79": {
+    "es": "Simulación completada. No se reservó ninguna cita.",
+    "en": "Simulation completed. No appointment was booked."
+  },
+  "text.70f8bb9a8a": {
+    "es": "Inicio",
+    "en": "Home"
+  },
+  "text.e09212c7d3": {
+    "es": "Habilidades",
+    "en": "Skills"
+  },
+  "text.036b18f02a": {
+    "es": "Portafolio",
+    "en": "Portfolio"
+  },
+  "text.81a05566b3": {
+    "es": "Caso de estudio",
+    "en": "Case Study"
+  },
+  "text.c108c83a8f": {
+    "es": "Desarrollador Full Stack",
+    "en": "Full Stack Developer"
+  },
+  "text.1ab37bb1d1": {
+    "es": "Lenguajes de programación",
+    "en": "Programming Languages"
+  },
+  "text.4a84732290": {
+    "es": "Backend y frameworks",
+    "en": "Backend & Frameworks"
+  },
+  "text.43ca5f4981": {
+    "es": "Bases de datos y formatos",
+    "en": "Databases & Data Formats"
+  },
+  "text.9182865005": {
+    "es": "Nube, DevOps y sistemas",
+    "en": "Cloud, DevOps & Systems"
+  },
+  "text.8016ed39c8": {
+    "es": "Otras herramientas y conceptos",
+    "en": "Other Tools & Concepts"
+  },
+  "text.f16a8cf3e7": {
+    "es": "Desarrollador Full Stack · Enfoque en backend",
+    "en": "Full Stack Developer · Backend Focus"
+  },
+  "text.3c2a8144c2": {
+    "es": "· Creado con React y Vite",
+    "en": "· Built with React & Vite"
+  },
+  "text.ff88c7f616": {
+    "es": "Full Stack (enfoque en backend)",
+    "en": "Full Stack (Backend Focus)"
+  },
+  "text.a2b2f96037": {
+    "es": "Diseño adaptable y componentes de interfaz",
+    "en": "Responsive design + UI components"
+  },
+  "text.7a2ae0d0d2": {
+    "es": "Entrada de comandos",
+    "en": "Terminal command input"
+  },
+  "text.51f288d62a": {
+    "es": "CV en PDF",
+    "en": "Resume PDF"
+  },
+  "text.7422e96e38": {
+    "es": "Terminal vaciada.",
+    "en": "Terminal cleared."
+  },
+  "text.9cf2d21e98": {
+    "es": "EmilioOS v1.0 — Terminal lista.",
+    "en": "EmilioOS v1.0 — Terminal ready."
+  },
+  "text.8be3c943b1": {
+    "es": "Contraseña",
+    "en": "Password"
+  },
+  "text.35c80f9645": {
+    "es": "URL de imagen",
+    "en": "Image URL"
+  },
+  "text.a3e06177ca": {
+    "es": "Alitas y boneless",
+    "en": "Wings & Boneless"
+  },
+  "text.3ac8e9e58c": {
+    "es": "Finalizar pedido",
+    "en": "Checkout"
+  },
+  "text.d87f47b47e": {
+    "es": "Resumen",
+    "en": "Dashboard"
+  },
+  "text.c0c3a27576": {
+    "es": "Comandos:",
+    "en": "Commands:"
+  },
+  "text.6d38bde033": {
+    "es": "curriculum - Muestra el CV en pantalla",
+    "en": "curriculum - Display the résumé on screen"
+  },
+  "text.26de87883d": {
+    "es": "open - Abre el CV en una nueva pestaña",
+    "en": "open - Open the résumé in a new tab"
+  },
+  "text.5151e1037e": {
+    "es": "download - Descarga el CV",
+    "en": "download - Download the résumé"
+  },
+  "text.13422fd4d7": {
+    "es": "clear - Limpia la terminal",
+    "en": "clear - Clear the terminal"
+  },
+  "text.295fab854e": {
+    "es": "Abriendo Resume-EmilioCastillo.pdf...",
+    "en": "Opening Resume-EmilioCastillo.pdf..."
+  },
+  "text.e83395fbb3": {
+    "es": "Abriendo CV en una nueva pestaña...",
+    "en": "Opening the résumé in a new tab..."
+  },
+  "ui.navigation": {
+    "es": "Abrir navegación",
+    "en": "Open navigation"
+  },
+  "text.8a3c344036": {
+    "es": "Todas",
+    "en": "All"
+  },
+  "text.60f92f2f9b": {
+    "es": "Documentación",
+    "en": "Documentation"
+  },
+  "text.e6b1962159": {
+    "es": "Realidad Virtual",
+    "en": "Virtual reality"
+  },
+  "text.03730f6829": {
+    "es": "Papel profesional",
+    "en": "Professional role"
+  },
+  "text.2cf35c7a37": {
+    "es": "Contribución personal pendiente de documentar.",
+    "en": "Personal contribution has not yet been documented."
+  },
+  "text.0e1f2e2603": {
+    "es": "Estado no documentado.",
+    "en": "Status has not yet been documented."
+  },
+  "demo.services": {
+    "es": "Servicios ilustrativos",
+    "en": "Illustrative services"
+  },
+  "ui.validation": {
+    "es": "Revisa los campos obligatorios y el formato del correo.",
+    "en": "Check the required fields and the email format."
+  }
+}

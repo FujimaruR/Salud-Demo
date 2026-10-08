@@ -1,3 +1,4 @@
+import { useLocale as useSiteLocale, t as tr, text as localizeText } from '../../site/locale';
 import { Star } from "lucide-react";
 import type { Review } from "./reviews";
 
@@ -15,6 +16,7 @@ export default function ReviewCard({
     className
 
 }:Props){
+  useSiteLocale();
 
     return(
 
@@ -55,7 +57,7 @@ export default function ReviewCard({
 
             <p className="text-white leading-7">
 
-                "{review.text}"
+                "{localizeText(review.text)}"
 
             </p>
 
@@ -63,15 +65,11 @@ export default function ReviewCard({
 
                 <h4 className="font-semibold text-white">
 
-                    {review.name}
+                    {localizeText(review.name)}
 
                 </h4>
 
-                <span className="text-sm text-gray-300">
-
-                    Paciente verificado
-
-                </span>
+                <span className="text-sm text-gray-300"> {tr("text.9a2a52da8d")} </span>
 
             </div>
 

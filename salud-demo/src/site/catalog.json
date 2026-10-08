@@ -686,5 +686,333 @@
   "ui.validation": {
     "es": "Revisa los campos obligatorios y el formato del correo.",
     "en": "Check the required fields and the email format."
+  },
+  "dental.brand": {
+    "es": "Brisa Dental",
+    "en": "Brisa Dental"
+  },
+  "dental.tag": {
+    "es": "Una visita tranquila empieza aquí",
+    "en": "A calm visit starts here"
+  },
+  "dental.title": {
+    "es": "Tu sonrisa,\nen buenas manos.",
+    "en": "Your smile,\nin caring hands."
+  },
+  "dental.intro": {
+    "es": "Un espacio para escuchar, explicar y cuidar. Conoce nuestros tratamientos y elige con calma tu siguiente visita.",
+    "en": "A space to listen, explain and care. Explore our treatments and take your time choosing your next visit."
+  },
+  "dental.notice": {
+    "es": "Demo de portafolio · Clínica, especialistas y disponibilidad ficticios.",
+    "en": "Portfolio demo · Fictional clinic, specialists and availability."
+  },
+  "dental.services": {
+    "es": "Tratamientos",
+    "en": "Treatments"
+  },
+  "dental.team": {
+    "es": "Nuestro equipo",
+    "en": "Our team"
+  },
+  "dental.faq": {
+    "es": "Preguntas frecuentes",
+    "en": "Frequently asked questions"
+  },
+  "dental.booking": {
+    "es": "Preparar una cita",
+    "en": "Prepare an appointment"
+  },
+  "dental.cta": {
+    "es": "Elegir mi visita ↗",
+    "en": "Choose my visit ↗"
+  },
+  "dental.explore": {
+    "es": "Conocer los tratamientos",
+    "en": "Explore treatments"
+  },
+  "dental.trust1": {
+    "es": "Te escuchamos primero",
+    "en": "We listen first"
+  },
+  "dental.trust2": {
+    "es": "Explicaciones claras",
+    "en": "Clear explanations"
+  },
+  "dental.trust3": {
+    "es": "Un paso a tu ritmo",
+    "en": "One step at your pace"
+  },
+  "dental.servicesTitle": {
+    "es": "Cada sonrisa necesita un cuidado distinto.",
+    "en": "Every smile needs its own care."
+  },
+  "dental.service1": {
+    "es": "Revisión general",
+    "en": "General checkup"
+  },
+  "dental.service1body": {
+    "es": "Una primera conversación y evaluación para conocer tus necesidades.",
+    "en": "An initial conversation and assessment to understand your needs."
+  },
+  "dental.service2": {
+    "es": "Limpieza dental",
+    "en": "Dental cleaning"
+  },
+  "dental.service2body": {
+    "es": "Una visita de cuidado preventivo, con orientación sobre higiene cotidiana.",
+    "en": "A preventive care visit with guidance on everyday hygiene."
+  },
+  "dental.service3": {
+    "es": "Ortodoncia",
+    "en": "Orthodontics"
+  },
+  "dental.service3body": {
+    "es": "Explora opciones de alineación mediante una valoración individual.",
+    "en": "Explore alignment options through an individual assessment."
+  },
+  "dental.service4": {
+    "es": "Restauración dental",
+    "en": "Dental restoration"
+  },
+  "dental.service4body": {
+    "es": "Una valoración para revisar alternativas de recuperación de función dental.",
+    "en": "An assessment to review options for restoring dental function."
+  },
+  "dental.service5": {
+    "es": "Odontología infantil",
+    "en": "Children’s dentistry"
+  },
+  "dental.service5body": {
+    "es": "Un acercamiento amable al cuidado dental para los más pequeños.",
+    "en": "A friendly introduction to dental care for younger patients."
+  },
+  "dental.service6": {
+    "es": "Estética dental",
+    "en": "Cosmetic dentistry"
+  },
+  "dental.service6body": {
+    "es": "Conversa sobre tus objetivos y las opciones adecuadas para tu caso.",
+    "en": "Discuss your goals and options appropriate for your individual case."
+  },
+  "dental.duration": {
+    "es": "Duración ilustrativa",
+    "en": "Illustrative duration"
+  },
+  "dental.teamTitle": {
+    "es": "Cercanía que se nota.",
+    "en": "Care you can feel."
+  },
+  "dental.teamBody": {
+    "es": "Conoce al equipo ilustrativo de esta clínica. Los nombres, perfiles y especialidades se utilizan para demostrar la interfaz.",
+    "en": "Meet this clinic’s illustrative team. Names, profiles and specialties are used to demonstrate the interface."
+  },
+  "dental.person1": {
+    "es": "Ana Robles",
+    "en": "Ana Robles"
+  },
+  "dental.role1": {
+    "es": "Perfil ficticio · Odontología general",
+    "en": "Fictional profile · General dentistry"
+  },
+  "dental.person2": {
+    "es": "Mateo Salas",
+    "en": "Mateo Salas"
+  },
+  "dental.role2": {
+    "es": "Perfil ficticio · Ortodoncia",
+    "en": "Fictional profile · Orthodontics"
+  },
+  "dental.person3": {
+    "es": "Sofía Luna",
+    "en": "Sofía Luna"
+  },
+  "dental.role3": {
+    "es": "Perfil ficticio · Odontología infantil",
+    "en": "Fictional profile · Children’s dentistry"
+  },
+  "dental.clinicTitle": {
+    "es": "Diseñado para sentirte a gusto.",
+    "en": "Designed to put you at ease."
+  },
+  "dental.clinicBody": {
+    "es": "Un recorrido sin prisas, espacios luminosos y una comunicación que te acompaña de la primera pregunta a la siguiente visita.",
+    "en": "An unhurried experience, bright spaces and communication that supports you from the first question to your next visit."
+  },
+  "dental.clinicMedia": {
+    "es": "Fotografías reales de referencia. No corresponden al equipo o a las instalaciones de esta clínica ficticia.",
+    "en": "Real reference photographs. They do not depict this fictional clinic’s team or facilities."
+  },
+  "dental.processTitle": {
+    "es": "Una visita, paso a paso.",
+    "en": "Your visit, step by step."
+  },
+  "dental.step1": {
+    "es": "Elige qué necesitas",
+    "en": "Choose what you need"
+  },
+  "dental.step1body": {
+    "es": "Selecciona un motivo de visita y un perfil del equipo.",
+    "en": "Select a reason for your visit and a team profile."
+  },
+  "dental.step2": {
+    "es": "Encuentra un momento",
+    "en": "Find a time"
+  },
+  "dental.step2body": {
+    "es": "Consulta las fechas y horarios ilustrativos disponibles.",
+    "en": "Explore the illustrative dates and times available."
+  },
+  "dental.step3": {
+    "es": "Revisa con calma",
+    "en": "Review at your pace"
+  },
+  "dental.step3body": {
+    "es": "Confirma tu selección en una simulación sin datos personales.",
+    "en": "Confirm your selection in a simulation without personal data."
+  },
+  "dental.question1": {
+    "es": "¿Se agenda una cita real?",
+    "en": "Does this book a real appointment?"
+  },
+  "dental.answer1": {
+    "es": "No. Esta demo permite explorar el recorrido de reserva con disponibilidad ficticia. No se contacta a una clínica.",
+    "en": "No. This demo lets you explore a booking flow with fictional availability. No clinic is contacted."
+  },
+  "dental.question2": {
+    "es": "¿Necesito compartir información médica?",
+    "en": "Do I need to share medical information?"
+  },
+  "dental.answer2": {
+    "es": "No. El formulario solo solicita opciones de visita. No introduzcas síntomas, documentos ni datos de pacientes.",
+    "en": "No. The form only asks you to choose visit options. Do not enter symptoms, documents or patient details."
+  },
+  "dental.question3": {
+    "es": "¿Cuánto dura una visita?",
+    "en": "How long does a visit take?"
+  },
+  "dental.answer3": {
+    "es": "Las duraciones mostradas son ejemplos de agenda. En un servicio real, el equipo confirmaría el tiempo según la valoración.",
+    "en": "Displayed durations are scheduling examples. In a real service, the team would confirm the time based on the assessment."
+  },
+  "dental.bookTitle": {
+    "es": "Hagamos espacio para tu sonrisa.",
+    "en": "Make room for your smile."
+  },
+  "dental.bookBody": {
+    "es": "Prueba el recorrido de reserva. Solo necesitas elegir opciones; no pedimos nombre, teléfono ni información médica.",
+    "en": "Try the booking experience. Just choose options; we do not ask for names, phone numbers or medical information."
+  },
+  "dental.stage1": {
+    "es": "Visita",
+    "en": "Visit"
+  },
+  "dental.stage2": {
+    "es": "Fecha y hora",
+    "en": "Date and time"
+  },
+  "dental.stage3": {
+    "es": "Revisión",
+    "en": "Review"
+  },
+  "dental.reason": {
+    "es": "Motivo de visita",
+    "en": "Reason for visit"
+  },
+  "dental.dentist": {
+    "es": "Perfil del especialista",
+    "en": "Specialist profile"
+  },
+  "dental.date": {
+    "es": "Fecha",
+    "en": "Date"
+  },
+  "dental.time": {
+    "es": "Horario disponible",
+    "en": "Available time"
+  },
+  "dental.choose": {
+    "es": "Selecciona una opción",
+    "en": "Choose an option"
+  },
+  "dental.continue": {
+    "es": "Continuar",
+    "en": "Continue"
+  },
+  "dental.back": {
+    "es": "Volver",
+    "en": "Back"
+  },
+  "dental.confirm": {
+    "es": "Simular reserva",
+    "en": "Simulate booking"
+  },
+  "dental.review": {
+    "es": "Todo listo para revisar.",
+    "en": "Ready for your review."
+  },
+  "dental.simulation": {
+    "es": "Disponibilidad ficticia · No se crea una cita real.",
+    "en": "Fictional availability · No real appointment is created."
+  },
+  "dental.success": {
+    "es": "Simulación completada. Tu selección no se envió a una clínica ni creó una cita.",
+    "en": "Simulation complete. Your selection was not sent to a clinic and did not create an appointment."
+  },
+  "dental.reset": {
+    "es": "Elegir otra visita",
+    "en": "Choose another visit"
+  },
+  "dental.validation": {
+    "es": "Selecciona las opciones indicadas para continuar.",
+    "en": "Select the indicated options to continue."
+  },
+  "dental.noSlots": {
+    "es": "No hay horarios ilustrativos para esa fecha. Elige otro día.",
+    "en": "No illustrative times are available on this date. Choose another day."
+  },
+  "dental.footer": {
+    "es": "Demo desarrollada por Emilio Castillo · Sin atención médica, reservas ni cobros reales.",
+    "en": "Demo developed by Emilio Castillo · No real medical care, bookings or payments."
+  },
+  "dental.language": {
+    "es": "Idioma",
+    "en": "Language"
+  },
+  "dental.nav": {
+    "es": "Navegación principal",
+    "en": "Main navigation"
+  },
+  "dental.skip": {
+    "es": "Ir al contenido",
+    "en": "Skip to content"
+  },
+  "dental.space": {
+    "es": "BRISA / ESPACIO",
+    "en": "BRISA / THE SPACE"
+  },
+  "dental.home": {
+    "es": "Inicio",
+    "en": "Home"
+  },
+  "dental.clinic": {
+    "es": "La clínica",
+    "en": "The clinic"
+  },
+  "dental.notfound": {
+    "es": "No encontramos esa página.",
+    "en": "We could not find that page."
+  },
+  "dental.photoNotice": {
+    "es": "Fotografías reales de referencia. No corresponden al equipo o a las instalaciones de esta clínica ficticia.",
+    "en": "Real reference photographs. They do not depict this fictional clinic’s team or facilities."
+  },
+  "dental.photoPeople": {
+    "es": "Profesional dental en una fotografía de referencia",
+    "en": "Dental professional in a reference photograph"
+  },
+  "dental.photoClinic": {
+    "es": "Instalaciones dentales en una fotografía de referencia",
+    "en": "Dental facilities in a reference photograph"
   }
 }

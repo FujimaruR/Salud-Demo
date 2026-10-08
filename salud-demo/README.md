@@ -1,58 +1,53 @@
-# React + TypeScript + Vite
+# Brisa Dental — Demo de clínica
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Demo de portafolio desarrollada por Emilio Castillo siguiendo AGENTS.md: minimalismo, superficies suaves, cuadrícula de tratamientos y una identidad blanca, azul claro y menta. La clínica, perfiles, especialidades, duraciones y disponibilidad son ficticios y se identifican en la interfaz.
 
-Currently, two official plugins are available:
+## Implementado
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Portada, seis tratamientos, tres perfiles ilustrativos, espacio de clínica, proceso, FAQ y reserva por pasos.
+- Reserva: motivo, especialista compatible, fecha, horario, revisión y confirmación simulada.
+- Ventana de 21 días futuros; domingos sin disponibilidad, horario reducido de sábado y horarios diferenciados por especialista.
+- Cambiar tratamiento elimina el especialista y horario anteriores; cambiar fecha o especialista elimina el horario seleccionado.
+- El idioma se puede cambiar durante la revisión sin perder opciones. Fechas con Intl y foco trasladado al siguiente paso.
+- No se piden nombres, teléfonos, síntomas, documentos ni datos médicos. No se contacta una clínica ni se crea una cita real.
 
-## React Compiler
+Se mantiene React, TypeScript y Vite existentes, sin añadir dependencias. Se reemplaza la composición pública anterior; sus componentes se conservan como código de referencia y no se incluyen en el recorrido activo ni en el bundle cuando no están importados. No se modificaron Prisma ni bases de datos.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Ejecutar y comprobar
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
-
-
-## Implementación de las instrucciones (octubre de 2026)
-
-La página se identifica como demostración, tiene navegación a secciones existentes y un formulario de cita ficticia que solo pide opciones de ejemplo. No realiza reservas ni recoge información médica. Se sustituyeron las reseñas flotantes por información de la demo, y las cifras de pacientes/experiencia por características de la interfaz. prisma/schema.prisma y prisma.config.ts conservan la configuración existente sin migrar bases. salud-demo/dev.db se retiró del índice y está ignorado; el archivo local se conserva y el historial previo no fue purgado.
-
-La interfaz admite Español / English desde un selector accesible. Se recuerda la elección cuando el navegador permite almacenamiento; sin elección usa un idioma soportado del navegador y español como alternativa. Se actualizan lang, título y descripción. El cambio conserva rutas, filtros, carrito y campos. Los catálogos están en src/site/catalog.json; las claves son estables y las traducciones de contenido existente no modifican identificadores, precios ni bases de negocio. Contenido procedente de la API fuera del catálogo se conserva: nuevos productos o mensajes requieren sus traducciones correspondientes.
-
-### Instalación y verificación
-
-Desde salud-demo/:
+Desde `salud-demo/`, con Node 24:
 
 ```powershell
 npm ci
-npm run dev
+npm run dev -- --host 127.0.0.1 --port 5185
 npm run lint
 npm run build
 npm run test:i18n
 npm run test:analytics
 ```
 
-En entornos Windows donde el empaquetador de la configuración de Vite da Access is denied, se verificó npm run build -- --configLoader runner; esto no modifica el stack ni sus dependencias.
+Abre http://127.0.0.1:5185/. La compilación produce `dist/`, listo para hosting estático. Hay seis páginas: `/`, `/tratamientos`, `/equipo`, `/clinica`, `/preguntas` y `/reservar`. React Router gestiona la navegación; `vercel.json` permite recargar rutas directas sin perder los recursos estáticos. Otros hostings deben aplicar el fallback a `index.html`. `npm run preview` permite revisar ese resultado localmente.
 
-### Analítica y límites
+## Estructura y medios
 
-Consulta [contrato, variables, ejecución, persistencia y copias de seguridad](../analytics/README.md). El servicio SQLite y sus pruebas están en analytics/ en la raíz del repositorio. Analítica desactivada hasta configurar su URL. La persistencia de producción, HTTPS y el alojamiento están pendientes de confirmar; no se publicaron cambios ni se contrataron servicios.
+- `src/App.tsx`: marco y navegación compartidos.
+- `src/pages/DentalPages.tsx`: portada, tratamientos Bento Grid, equipo, clínica y FAQ.
+- `src/pages/Booking.tsx`: reserva independiente.
+- `src/site/routes.json`: rutas públicas.
+- `src/pages/Dental.css`: identidad, distribución y adaptación móvil.
+- `src/site/booking.mjs`: especialistas compatibles, calendario y disponibilidad ficticia.
+- `src/site/catalog.json`: traducciones; las claves nuevas comienzan con `dental.`.
+
+Fotografías reales de referencia, almacenadas en `public/media/`. No corresponden al equipo o instalaciones de la clínica ficticia. Se emplean carga diferida, dimensiones explícitas y texto alternativo. Créditos: [MEDIA.md](MEDIA.md).
+
+Paleta: `#FFFFFF`, `#E8F6F8`, `#A8DADC`, `#247B83`, `#263746`. Predominan Minimalism, Soft UI y Bento Grid, con tarjetas redondeadas, sombras suaves y animación discreta que respeta movimiento reducido.
+
+## Analítica y privacidad
+
+La configuración existente permanece en `.env.example` y `src/site/analytics.js`. Sin `VITE_ANALYTICS_URL` no se envían eventos; el servicio SQLite se documenta en [../analytics/README.md](../analytics/README.md). Se miden las seis rutas públicas y `demo-appointment`, con el contrato existente y sin contenidos de campos. Confirmar una simulación no emite un éxito de envío real.
+
+Los datos seleccionados viven en memoria de React y desaparecen al recargar. No hay backend de reservas, atención médica, cobros ni garantías de resultados.
+
+## Verificación
+
+El 8 de octubre de 2026 pasaron lint, TypeScript/build, 8 pruebas de idioma/cliente/calendario y 3 del servicio SQLite. Las pruebas de calendario cubren cambio de año, fechas fuera del intervalo, domingos cerrados, perfiles desconocidos y disponibilidad por especialista. Se revisaron en navegador selección de ortodoncia/Mateo, fecha, horario, cambio de idioma, revisión y confirmación. También se revisó móvil. Despliegue pendiente; no se hizo commit ni push.

@@ -32,7 +32,7 @@ export function track(type, formId, code) {
 }
 function trackEvent(type, formId, code) {
   if (!enabled) return;
-  const path = window.location.pathname;
+  const path = window.location.pathname.replace(/\/$/, "") || "/";
   // Only known public routes. No query/hash, dynamic personal URLs or admin pages.
   if (!config.paths.includes(path)) return;
   const value = session();

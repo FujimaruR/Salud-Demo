@@ -1,6 +1,11 @@
 {
   "paths": [
-    "/"
+    "/",
+    "/tratamientos",
+    "/equipo",
+    "/clinica",
+    "/preguntas",
+    "/reservar"
   ],
   "forms": [
     "demo-appointment"

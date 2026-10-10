@@ -74,6 +74,23 @@ export function HomePage() {
           ))}
         </div>
       </section>
+      <section className="d-section d-wrap d-reviews">
+        <p className="d-eyebrow">{t("dental.reviewsLabel")}</p>
+        <h2>{t("dental.reviewsTitle")}</h2>
+        <div className="d-reviews-grid">
+          {[1, 2, 3].map((i) => (
+            <article className="d-review" key={i} tabIndex={0} aria-labelledby={"d-review-name-" + i}>
+              <div className="d-review-top">
+                <span className="d-review-mark" aria-hidden="true">“</span>
+                <span className="d-review-indicator">{t("dental.reviewMarker")} 0{i} ↗</span>
+              </div>
+              <blockquote><p>{t("dental.review" + i)}</p></blockquote>
+              <h3 id={"d-review-name-" + i}>{t("dental.reviewName" + i)}</h3>
+              <p className="d-small">{t("dental.reviewContext")}</p>
+            </article>
+          ))}
+        </div>
+      </section>
     </>
   );
 }

@@ -1018,5 +1018,45 @@
   "dental.photoCare": {
     "es": "Dentista realizando una revisión dental, fotografía de referencia",
     "en": "Dentist performing a dental examination, reference photograph"
+  },
+  "dental.reviewsTitle": {
+    "es": "Una atención que se siente cercana.",
+    "en": "Care that feels personal."
+  },
+  "dental.reviewsLabel": {
+    "es": "Reseñas ficticias · Demostración",
+    "en": "Fictional reviews · Demonstration"
+  },
+  "dental.reviewMarker": {
+    "es": "Reseña",
+    "en": "Review"
+  },
+  "dental.review1": {
+    "es": "“Me explicaron cómo sería la visita con calma y en palabras sencillas. Me gustó sentir que podía hacer preguntas.”",
+    "en": "“They calmly explained the visit in simple words. I appreciated feeling comfortable asking questions.”"
+  },
+  "dental.review2": {
+    "es": "“El ambiente de la clínica y la atención del equipo hicieron que la experiencia se sintiera tranquila y organizada.”",
+    "en": "“The clinic atmosphere and thoughtful team made the experience feel calm and organized.”"
+  },
+  "dental.review3": {
+    "es": "“Desde la bienvenida encontré un trato amable. Agradecí que se tomaran el tiempo para escuchar mis dudas.”",
+    "en": "“I received a friendly welcome and appreciated the time taken to listen to my questions.”"
+  },
+  "dental.reviewName1": {
+    "es": "Valeria C.",
+    "en": "Valeria C."
+  },
+  "dental.reviewName2": {
+    "es": "Miguel A.",
+    "en": "Miguel A."
+  },
+  "dental.reviewName3": {
+    "es": "Sofía R.",
+    "en": "Sofía R."
+  },
+  "dental.reviewContext": {
+    "es": "Relato ficticio · DentSmile",
+    "en": "Fictional account · DentSmile"
   }
 }

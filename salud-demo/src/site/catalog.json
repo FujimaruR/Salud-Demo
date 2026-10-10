@@ -688,16 +688,16 @@
     "en": "Check the required fields and the email format."
   },
   "dental.brand": {
-    "es": "Brisa Dental",
-    "en": "Brisa Dental"
+    "es": "DentSmile",
+    "en": "DentSmile"
   },
   "dental.tag": {
-    "es": "Una visita tranquila empieza aquí",
-    "en": "A calm visit starts here"
+    "es": "DENTSMILE · CUIDADO DENTAL A TU RITMO",
+    "en": "DENTSMILE · DENTAL CARE AT YOUR PACE"
   },
   "dental.title": {
-    "es": "Tu sonrisa,\nen buenas manos.",
-    "en": "Your smile,\nin caring hands."
+    "es": "Tu sonrisa merece\nsentirse bien.",
+    "en": "Your smile deserves\nto feel good."
   },
   "dental.intro": {
     "es": "Un espacio para escuchar, explicar y cuidar. Conoce nuestros tratamientos y elige con calma tu siguiente visita.",
@@ -988,8 +988,8 @@
     "en": "Skip to content"
   },
   "dental.space": {
-    "es": "BRISA / ESPACIO",
-    "en": "BRISA / THE SPACE"
+    "es": "DentSmile / ESPACIO",
+    "en": "DentSmile / THE SPACE"
   },
   "dental.home": {
     "es": "Inicio",
@@ -1014,5 +1014,9 @@
   "dental.photoClinic": {
     "es": "Instalaciones dentales en una fotografía de referencia",
     "en": "Dental facilities in a reference photograph"
+  },
+  "dental.photoCare": {
+    "es": "Dentista realizando una revisión dental, fotografía de referencia",
+    "en": "Dentist performing a dental examination, reference photograph"
   }
 }

@@ -52,7 +52,7 @@ export default function Booking() {
     <section className="d-section d-book" id="booking">
       <div className="d-wrap d-split">
         <div>
-          <p className="d-eyebrow">BRISA / 04</p>
+          <p className="d-eyebrow">DentSmile / 04</p>
           <h1>{t("dental.bookTitle")}</h1>
           <p>{t("dental.bookBody")}</p>
           <p className="d-small">{t("dental.simulation")}</p>

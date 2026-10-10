@@ -11,7 +11,13 @@ function Photo({
   return (
     <img
       src={"/media/" + kind + ".jpg"}
-      alt={t(kind === "clinic" ? "dental.photoClinic" : "dental.photoPeople")}
+      alt={t(
+        kind === "clinic"
+          ? "dental.photoClinic"
+          : kind === "care"
+            ? "dental.photoCare"
+            : "dental.photoPeople",
+      )}
       width="1200"
       height="1600"
       loading={priority ? "eager" : "lazy"}
@@ -23,7 +29,7 @@ export function HomePage() {
   return (
     <>
       <section className="d-hero d-wrap">
-        <div>
+        <div className="d-hero-copy">
           <p className="d-eyebrow">{t("dental.tag")}</p>
           <h1>{t("dental.title")}</h1>
           <p>{t("dental.intro")}</p>
@@ -42,7 +48,7 @@ export function HomePage() {
           </div>
         </div>
         <div className="d-hero-media">
-          <Photo kind="dentist" priority />
+          <Photo kind="care" priority />
           <div className="d-media-label">
             <span aria-hidden="true">✧</span>
             <div>
@@ -53,11 +59,14 @@ export function HomePage() {
         </div>
       </section>
       <section className="d-section d-wrap d-home-preview">
-        <p className="d-eyebrow">BRISA / 01</p>
+        <p className="d-eyebrow">DentSmile / 01</p>
         <h2>{t("dental.servicesTitle")}</h2>
         <div className="d-preview-grid">
           {services.slice(0, 3).map((s) => (
             <Link className="d-preview" to="/tratamientos" key={s.id}>
+              <div className="d-preview-photo">
+                <Photo kind={["dentist", "care", "clinic"][s.n - 1]} />
+              </div>
               <span>{s.icon}</span>
               <h3>{t("dental.service" + s.n)}</h3>
               <span aria-hidden="true">↗</span>
@@ -73,12 +82,15 @@ export function TreatmentsPage() {
     <>
       <section className="d-section d-wrap" id="treatments">
         <div className="d-section-head">
-          <p className="d-eyebrow">BRISA / 01</p>
+          <p className="d-eyebrow">DentSmile / 01</p>
           <h1>{t("dental.servicesTitle")}</h1>
         </div>
         <div className="d-services">
           {services.map((s) => (
             <article className="d-service" key={s.id}>
+              <div className="d-treatment-photo">
+                <Photo kind={s.n % 2 === 0 ? "dentist" : "care"} />
+              </div>
               <span className="d-icon" aria-hidden="true">
                 {s.icon}
               </span>
@@ -110,7 +122,7 @@ export function TeamPage() {
       <section className="d-section d-team" id="team">
         <div className="d-wrap">
           <div className="d-section-head">
-            <p className="d-eyebrow">BRISA / 02</p>
+            <p className="d-eyebrow">DentSmile / 02</p>
             <h1>{t("dental.teamTitle")}</h1>
             <p>{t("dental.teamBody")}</p>
           </div>

@@ -1,6 +1,6 @@
-# Brisa Dental — Demo de clínica
+# DentSmile — Demo de clínica
 
-Demo de portafolio desarrollada por Emilio Castillo siguiendo AGENTS.md: minimalismo, superficies suaves, cuadrícula de tratamientos y una identidad blanca, azul claro y menta. La clínica, perfiles, especialidades, duraciones y disponibilidad son ficticios y se identifican en la interfaz.
+Demo de portafolio desarrollada por Emilio Castillo con la identidad DentSmile solicitada: Glassmorphism, azules claros, blanco y fotografía dental. La clínica, perfiles, especialidades, duraciones y disponibilidad son ficticios y se identifican en la interfaz.
 
 ## Implementado
 
@@ -31,7 +31,7 @@ Abre http://127.0.0.1:5185/. La compilación produce `dist/`, listo para hosting
 ## Estructura y medios
 
 - `src/App.tsx`: marco y navegación compartidos.
-- `src/pages/DentalPages.tsx`: portada, tratamientos Bento Grid, equipo, clínica y FAQ.
+- `src/pages/DentalPages.tsx`: portada, tratamientos con fotografía, equipo, clínica y FAQ.
 - `src/pages/Booking.tsx`: reserva independiente.
 - `src/site/routes.json`: rutas públicas.
 - `src/pages/Dental.css`: identidad, distribución y adaptación móvil.
@@ -40,7 +40,7 @@ Abre http://127.0.0.1:5185/. La compilación produce `dist/`, listo para hosting
 
 Fotografías reales de referencia, almacenadas en `public/media/`. No corresponden al equipo o instalaciones de la clínica ficticia. Se emplean carga diferida, dimensiones explícitas y texto alternativo. Créditos: [MEDIA.md](MEDIA.md).
 
-Paleta: `#FFFFFF`, `#E8F6F8`, `#A8DADC`, `#247B83`, `#263746`. Predominan Minimalism, Soft UI y Bento Grid, con tarjetas redondeadas, sombras suaves y animación discreta que respeta movimiento reducido.
+Paleta: blanco, azul hielo `#EDF6FF`, azul claro `#C4E5FF`, azul de acción `#2365B4` y tinta azul `#17354F`. Predomina Glassmorphism: paneles blancos translúcidos, desenfoque de fondo, bordes luminosos y sombras suaves. El fondo fotográfico de la portada y las imágenes de tratamientos y dentistas tienen protagonismo. Hay alternativa opaca para navegadores sin backdrop-filter y soporte para reducir movimiento.
 
 ## Analítica y privacidad
 

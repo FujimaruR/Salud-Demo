@@ -1,4 +1,4 @@
-# Salud-Demo — Brisa Dental
+# Salud-Demo — DentSmile
 
 Demo de portafolio de una clínica dental ficticia, desarrollada según AGENTS.md con identidad suave, tratamientos, perfiles ilustrativos y reserva guiada de especialista, fecha y horario. No recoge datos médicos ni realiza reservas reales.
 

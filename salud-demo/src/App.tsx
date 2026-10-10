@@ -27,6 +27,24 @@ const legacy: Record<string, string> = {
   booking: "/reservar",
   contact: "/reservar",
 };
+function ToothMark() {
+  return (
+    <svg className="d-tooth" viewBox="0 0 32 36" fill="none" aria-hidden="true">
+      <path
+        d="M16 5C11-1 2 2 3 11c1 7 2 20 7 21 3 0 2-12 6-12s3 12 6 12c5-1 6-14 7-21 1-9-8-12-13-6Z"
+        stroke="currentColor"
+        strokeWidth="2.2"
+        strokeLinejoin="round"
+      />
+      <path
+        d="m12 7 4 2 4-2"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
 function Site() {
   const locale = useLocale();
   const location = useLocation();
@@ -77,9 +95,9 @@ function Site() {
       <div className="d-notice">{t("dental.notice")}</div>
       <header className="d-nav d-wrap">
         <Link className="d-brand" to="/">
-          ◡{" "}
+          <ToothMark />
           <span>
-            brisa<span className="d-brand-sub">DENTAL</span>
+            Dent<span className="d-brand-blue">Smile</span>
           </span>
         </Link>
         <nav aria-label={t("dental.nav")}>
@@ -125,7 +143,7 @@ function Site() {
       </main>
       <footer className="d-footer d-wrap">
         <Link className="d-brand" to="/">
-          brisa dental
+          DentSmile
         </Link>
         <p>{t("dental.footer")}</p>
         <Link to="/reservar">{t("dental.booking")} ↗</Link>

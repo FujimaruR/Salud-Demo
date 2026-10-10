@@ -1,6 +1,6 @@
 # Fotografías de referencia
 
-Recursos locales en `public/media/`. Las personas y las instalaciones fotografiadas no pertenecen a la clínica ficticia Brisa Dental ni representan a sus perfiles ficticios.
+Recursos locales en `public/media/`. Las personas y las instalaciones fotografiadas no pertenecen a la clínica ficticia DentSmile ni representan a sus perfiles ficticios.
 
 | Archivo | Fuente / crédito |
 | --- | --- |
